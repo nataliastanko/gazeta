@@ -1,0 +1,276 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+	<title>Docs for page artykuly.inc.php</title>
+	<link rel="stylesheet" type="text/css" id="layout" href="../media/layout.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="../media/style.css" media="all">
+	<link rel="stylesheet" type="text/css" href="../media/print.css" media="print">
+</head>
+
+<body>
+<div id="header">
+	<div id="navLinks">
+        
+                                    
+                                                                                                                                                                        	        [ <a href="../classtrees_artykuly-inc-php.html">Class Tree: artykuly-inc-php</a> ]
+            [ <a href="../elementindex_artykuly-inc-php.html">Index: artykuly-inc-php</a> ]
+        		[ <a href="../elementindex.html">All elements</a> ]		
+	</div>
+	<div id="packagePosition">
+		<div id="packageTitle2">artykuly-inc-php</div>
+		<div id="packageTitle">artykuly-inc-php</div>
+		<div id="elementPath"> &middot; </div>
+	</div>
+</div>
+
+<div id="nav" class="small">
+	<div id="packages">
+		Packages:
+					<p><a href="../li_artykuly-inc-php.html">artykuly-inc-php</a></p>
+					<p><a href="../li_artykuly-php.html">artykuly-php</a></p>
+					<p><a href="../li_baza-inc-php.html">baza-inc-php</a></p>
+					<p><a href="../li_kategorie-inc-php.html">kategorie-inc-php</a></p>
+					<p><a href="../li_komentarze-inc-php.html">komentarze-inc-php</a></p>
+					<p><a href="../li_konfiguracja-inc-php.html">konfiguracja-inc-php</a></p>
+					<p><a href="../li_obsluga-inc-php.html">obsluga-inc-php</a></p>
+					<p><a href="../li_redaktorzy-inc-php.html">redaktorzy-inc-php</a></p>
+			</div>
+
+				<div id="index">
+			<div id="files">
+								Files:<br>
+								<a href="../artykuly-inc-php/_artykuly.inc.php.html">		artykuly.inc.php
+		</a><br>
+				</div>
+			<div id="interfaces">
+							</div>
+			<div id="classes">
+							</div>
+		</div>
+	</div>
+
+<div id="body">
+	    		<h1>Procedural File: artykuly.inc.php</h1>
+	<p style="margin: 0px;">Source Location: /artykuly.inc.php</p>
+	
+<br>
+<br>
+
+<div class="contents">
+<h2>Classes:</h2>
+<dl>
+</dl>
+</div>
+
+<h2>Page Details:</h2>
+<p align="center"><strong>Funkcje do obs³ugi wy¶wietlania i edycji artyku³ów
+</strong></p>
+<h4>Tags:</h4>
+<ul>
+	<li><b>author</b> - Natalia Stanko &lt;<a href="mailto:anithaly@gmail.com">anithaly@gmail.com</a>&gt;</li>
+	<li><b>version</b> - 1.0.0 10.01.2009</li>
+	<li><b>copyright</b> - 2009 Natalia Stanko</li>
+	<li><b>link</b> - <a href="http://wierzba.wzks.uj.edu.pl/~stanko/Gazeta">http://wierzba.wzks.uj.edu.pl/~stanko/Gazeta</a></li>
+	<li><b>since</b> - 1.0.0 10.01.2009</li>
+</ul>
+<hr>
+<hr>
+<div id="global">
+</div><hr>
+<div id="define">
+</div><hr>
+<div id="function">
+	<a name="functiondodajArtykul"></a>
+	<h3>dodajArtykul</h3>
+	<div class="indent">
+		<code>integer dodajArtykul(
+array $dane)</code>
+		<p class="linenumber">[line 90]</p>
+		<p align="center"><strong>Dodanie nowego artykulu do bazy danych.
+</strong></p>
+<h4>Tags:</h4>
+<ul>
+	<li><b>return</b> - Wynik zapytania do bazy danych</li>
+</ul>
+		
+		<h4>Parameters</h4>
+		<ul>
+					<li>
+			<span class="type">array</span>
+			<b>$dane</b> 
+			- 
+			Tablica danych do zapisania do bazy</li>
+				</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="functionpobierzArtykuly"></a>
+	<h3>pobierzArtykuly</h3>
+	<div class="indent">
+		<code>array pobierzArtykuly(
+[ $ile = null], [ $id_kat = null], [ $przedzial = 1], integer $ile=null, integer $id_kat=null, integer $przedzial=1)</code>
+		<p class="linenumber">[line 207]</p>
+		<p align="center"><strong>Pobiera artyku³y z bazy danych
+</strong></p>
+<h4>Tags:</h4>
+<ul>
+	<li><b>return</b> - Wyniki zapytania z bazy danych</li>
+</ul>
+		
+		<h4>Parameters</h4>
+		<ul>
+					<li>
+			<span class="type">integer</span>
+			<b>$ile=null</b> 
+			- 
+			ilosc artykulow na strone, jesli null - nie stronicuj</li>
+					<li>
+			<span class="type">integer</span>
+			<b>$id_kat=null</b> 
+			- 
+			id kategorii z ktorej pobrac artykuly</li>
+					<li>
+			<span class="type">integer</span>
+			<b>$przedzial=1</b> 
+			- 
+			numer przedzialu, jesli nie podane to 1, czyli od poczatku</li>
+					<li>
+			<span class="type"></span>
+			<b>$ile</b> 
+			- 
+			</li>
+					<li>
+			<span class="type"></span>
+			<b>$id_kat</b> 
+			- 
+			</li>
+					<li>
+			<span class="type"></span>
+			<b>$przedzial</b> 
+			- 
+			</li>
+				</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="functionpobierzArtykulyRedaktora"></a>
+	<h3>pobierzArtykulyRedaktora</h3>
+	<div class="indent">
+		<code>array pobierzArtykulyRedaktora(
+integer $id_redaktor)</code>
+		<p class="linenumber">[line 20]</p>
+		<p align="center"><strong>Pobiera artyku³y jednego redaktora
+</strong></p>
+<h4>Tags:</h4>
+<ul>
+	<li><b>return</b> - Wynik zapytania do bazy danych</li>
+</ul>
+		
+		<h4>Parameters</h4>
+		<ul>
+					<li>
+			<span class="type">integer</span>
+			<b>$id_redaktor</b> 
+			- 
+			Id redaktora, którego artyku³y pobieramy</li>
+				</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="functionpobierzJedenArtykul"></a>
+	<h3>pobierzJedenArtykul</h3>
+	<div class="indent">
+		<code>array pobierzJedenArtykul(
+integer $id_art)</code>
+		<p class="linenumber">[line 58]</p>
+		<p align="center"><strong>Pobiera jeden artyku³
+</strong></p>
+<h4>Tags:</h4>
+<ul>
+	<li><b>return</b> - Wynik zapytania do bazy danych</li>
+</ul>
+		
+		<h4>Parameters</h4>
+		<ul>
+					<li>
+			<span class="type">integer</span>
+			<b>$id_art</b> 
+			- 
+			Id artyku³u do pobrania</li>
+				</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="functionusunArtykul"></a>
+	<h3>usunArtykul</h3>
+	<div class="indent">
+		<code>integer usunArtykul(
+array $id_art)</code>
+		<p class="linenumber">[line 165]</p>
+		<p align="center"><strong>Usuwanie  artykulu z bazy danych.
+</strong></p>
+<h4>Tags:</h4>
+<ul>
+	<li><b>return</b> - Wynik zapytania do bazy danych</li>
+</ul>
+		
+		<h4>Parameters</h4>
+		<ul>
+					<li>
+			<span class="type">array</span>
+			<b>$id_art</b> 
+			- 
+			Id artyku³u do usuniêcia</li>
+				</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="functionwyszukajArtykuly"></a>
+	<h3>wyszukajArtykuly</h3>
+	<div class="indent">
+		<code>array wyszukajArtykuly(
+string $szukane)</code>
+		<p class="linenumber">[line 269]</p>
+		<p align="center"><strong>Wyszukiwanie artyku³ów po tre¶ci
+</strong></p>
+<h4>Tags:</h4>
+<ul>
+	<li><b>return</b> - Tablica ze znalezionymi artyku³ami</li>
+</ul>
+		
+		<h4>Parameters</h4>
+		<ul>
+					<li>
+			<span class="type">string</span>
+			<b>$szukane</b> 
+			- 
+			szukana fraza</li>
+				</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="functionzmienArtykul"></a>
+	<h3>zmienArtykul</h3>
+	<div class="indent">
+		<code>integer zmienArtykul(
+array $dane)</code>
+		<p class="linenumber">[line 134]</p>
+		<p align="center"><strong>Zapisanie zmian w edytowanym artykule do bazy danych
+</strong></p>
+<h4>Tags:</h4>
+<ul>
+	<li><b>return</b> - Wynik zapytania do bazy danych</li>
+</ul>
+		
+		<h4>Parameters</h4>
+		<ul>
+					<li>
+			<span class="type">array</span>
+			<b>$dane</b> 
+			- 
+			Tablica danych do zapisania do bazy</li>
+				</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+</div>
+	<div id="credit">
+		<hr>
+		Documentation generated on Sat, 14 Feb 2009 10:27:21 +0100 by <a href="http://www.phpdoc.org">phpDocumentor 1.4.1</a>
+	</div>
+</div>
+</body>
+</html>

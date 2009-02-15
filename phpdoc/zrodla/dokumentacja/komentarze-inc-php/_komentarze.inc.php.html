@@ -1,0 +1,164 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+	<title>Docs for page komentarze.inc.php</title>
+	<link rel="stylesheet" type="text/css" id="layout" href="../media/layout.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="../media/style.css" media="all">
+	<link rel="stylesheet" type="text/css" href="../media/print.css" media="print">
+</head>
+
+<body>
+<div id="header">
+	<div id="navLinks">
+        
+                                                                                                                    
+                                                                                        	        [ <a href="../classtrees_komentarze-inc-php.html">Class Tree: komentarze-inc-php</a> ]
+            [ <a href="../elementindex_komentarze-inc-php.html">Index: komentarze-inc-php</a> ]
+        		[ <a href="../elementindex.html">All elements</a> ]		
+	</div>
+	<div id="packagePosition">
+		<div id="packageTitle2">komentarze-inc-php</div>
+		<div id="packageTitle">komentarze-inc-php</div>
+		<div id="elementPath"> &middot; </div>
+	</div>
+</div>
+
+<div id="nav" class="small">
+	<div id="packages">
+		Packages:
+					<p><a href="../li_artykuly-inc-php.html">artykuly-inc-php</a></p>
+					<p><a href="../li_artykuly-php.html">artykuly-php</a></p>
+					<p><a href="../li_baza-inc-php.html">baza-inc-php</a></p>
+					<p><a href="../li_kategorie-inc-php.html">kategorie-inc-php</a></p>
+					<p><a href="../li_komentarze-inc-php.html">komentarze-inc-php</a></p>
+					<p><a href="../li_konfiguracja-inc-php.html">konfiguracja-inc-php</a></p>
+					<p><a href="../li_obsluga-inc-php.html">obsluga-inc-php</a></p>
+					<p><a href="../li_redaktorzy-inc-php.html">redaktorzy-inc-php</a></p>
+			</div>
+
+				<div id="index">
+			<div id="files">
+								Files:<br>
+								<a href="../komentarze-inc-php/_komentarze.inc.php.html">		komentarze.inc.php
+		</a><br>
+				</div>
+			<div id="interfaces">
+							</div>
+			<div id="classes">
+							</div>
+		</div>
+	</div>
+
+<div id="body">
+	    		<h1>Procedural File: komentarze.inc.php</h1>
+	<p style="margin: 0px;">Source Location: /komentarze.inc.php</p>
+	
+<br>
+<br>
+
+<div class="contents">
+<h2>Classes:</h2>
+<dl>
+</dl>
+</div>
+
+<h2>Page Details:</h2>
+<p align="center"><strong>Funkcje do obs³ugi wy¶wietlania i edycji komentarzy
+</strong></p>
+<h4>Tags:</h4>
+<ul>
+	<li><b>author</b> - Natalia Stanko &lt;<a href="mailto:anithaly@gmail.com">anithaly@gmail.com</a>&gt;</li>
+	<li><b>version</b> - 1.0.0 10.01.2009</li>
+	<li><b>copyright</b> - 2009 Natalia Stanko</li>
+	<li><b>link</b> - <a href="http://wierzba.wzks.uj.edu.pl/~stanko/Gazeta">http://wierzba.wzks.uj.edu.pl/~stanko/Gazeta</a></li>
+	<li><b>since</b> - 1.0.0 10.01.2009</li>
+</ul>
+<hr>
+<hr>
+<div id="global">
+</div><hr>
+<div id="define">
+</div><hr>
+<div id="function">
+	<a name="functiondodajKomentarz"></a>
+	<h3>dodajKomentarz</h3>
+	<div class="indent">
+		<code>integer dodajKomentarz(
+array $dane)</code>
+		<p class="linenumber">[line 19]</p>
+		<p align="center"><strong>Dodanie nowego komentarza do artyku³u do bazy danych.
+</strong></p>
+<h4>Tags:</h4>
+<ul>
+	<li><b>return</b> - Wynik zapytania do bazy danych</li>
+</ul>
+		
+		<h4>Parameters</h4>
+		<ul>
+					<li>
+			<span class="type">array</span>
+			<b>$dane</b> 
+			- 
+			Tablica danych do zapisania do bazy</li>
+				</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="functionpobierzKomentarze"></a>
+	<h3>pobierzKomentarze</h3>
+	<div class="indent">
+		<code>array pobierzKomentarze(
+[ $id_art = null], integer $id_art=null)</code>
+		<p class="linenumber">[line 55]</p>
+		<p align="center"><strong>Pobranie listy komentarz <ul><li>dla wybranego artyku³u</li><li>wszystkich dla panelu administratora gdy nie podano Id artyku³u</li></ul>
+</strong></p>
+<h4>Tags:</h4>
+<ul>
+	<li><b>return</b> - Wynik zapytania do bazy danych</li>
+</ul>
+		
+		<h4>Parameters</h4>
+		<ul>
+					<li>
+			<span class="type">integer</span>
+			<b>$id_art=null</b> 
+			- 
+			Id artyku³u dla którego pobieramy komentarze</li>
+					<li>
+			<span class="type"></span>
+			<b>$id_art</b> 
+			- 
+			</li>
+				</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="functionusunKomentarz"></a>
+	<h3>usunKomentarz</h3>
+	<div class="indent">
+		<code>integer usunKomentarz(
+integer $id_kom)</code>
+		<p class="linenumber">[line 89]</p>
+		<p align="center"><strong>Usuwa komentarz z bazy danych.
+</strong></p>
+<h4>Tags:</h4>
+<ul>
+	<li><b>return</b> - Wynik zapytania do bazy danych</li>
+</ul>
+		
+		<h4>Parameters</h4>
+		<ul>
+					<li>
+			<span class="type">integer</span>
+			<b>$id_kom</b> 
+			- 
+			Id komentarza do usuniêcia</li>
+				</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+</div>
+	<div id="credit">
+		<hr>
+		Documentation generated on Sat, 14 Feb 2009 10:27:21 +0100 by <a href="http://www.phpdoc.org">phpDocumentor 1.4.1</a>
+	</div>
+</div>
+</body>
+</html>

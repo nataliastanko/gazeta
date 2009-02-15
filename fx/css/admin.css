@@ -1,0 +1,203 @@
+html,body{
+	margin:0;
+	padding:0;
+}           
+
+body{
+	font-family: "Lucida Grande", "Trebuchet MS", Lucida, Trebuchet, sans-serif;
+	font-size:11px;
+	color:#333;
+	background:#eee;
+}
+
+a:link,a:visited{
+	color:#1174d0;
+}
+
+a:hover,a:active{
+	color:#02203c;
+}
+   
+
+div#strona{
+	width:960px;
+	margin:10px auto;
+	background:#fff;
+	padding:10px;
+	border-right:1px solid #aaa;
+	border-bottom:1px solid #aaa;
+}
+
+div#naglowek{
+	height:100px;
+	padding:10px;    
+	position:relative;
+	background:#d5e5e9;   	
+}                 
+  
+div#naglowek ul{
+	list-style:none;  
+	margin:0;
+	padding:0;
+}                 
+
+div#naglowek ul li{
+	display:inline;
+	padding:10px;
+}    
+
+div#naglowek span.witaj{
+	position:absolute;
+	right:0;
+	top:0;
+	padding:10px;
+	background:#bbd3d8;     
+	font-weight: bold;
+}
+
+div#stopka{
+	background:#333;
+	padding:10px;
+	font-size:11px;
+	text-align: center;
+	color:#aaa;
+} 
+
+div#tresc{
+	margin:20px 0;
+	min-height:400px;
+}
+               
+* html div#tresc{
+	height:400px;
+}
+    
+div#tresc h1{
+	font-size:24px;
+	font-weight: bold;
+	margin:0 0 10px 0;
+	padding:0 0 1px 0;
+	border-bottom:1px solid #ccc;
+	letter-spacing:-1px;
+} 
+
+div#tresc p{
+	padding:10px 0;
+	margin:0;
+	font-size:15px;
+}
+   
+fieldset{
+	border: 1px dotted #aaa;
+	padding:10px; 
+  	margin:20px 0;
+}   
+
+fieldset.login{
+	width:500px;
+	margin:50px auto 0 auto;
+}  
+
+fieldset div{
+	margin:10px 0;
+	clear:both;
+}         
+
+legend{
+	letter-spacing:1px; 
+	font-size:15px; 
+	text-transform: uppercase;
+	background:#fff;
+}
+
+label{
+	font-weight:900;
+	padding:10px 0;
+	display:block;
+	float:left;
+	width:180px;
+}
+
+input[type=text],input[type=password]{
+	font-size:17px;
+	display:block;
+	width:300px;
+	margin:10px 0;
+}             
+
+textarea{
+	width:450px;
+	height:200px;
+}
+
+input[type=submit]{
+	font-size:15px;
+	clear:both;
+	margin:10px 0;
+}
+    
+fieldset select{
+	padding:1px;
+	font-size:17px;
+}
+
+tr.usuniety td{
+	text-decoration: line-through;
+	color:#aaa;
+}
+
+div#komunikat{
+	background:#F1E4D0;
+	color:#B5804E;
+	padding:20px;
+	font-size:17px;
+	font-weight: bold;
+	margin:10px 0;
+	text-align: center;     
+	cursor:pointer;
+} 
+
+div.akcje{
+	position:relative;   
+	height:20px;
+}                   
+
+div.akcje a{
+	background:#1174d0;
+	text-decoration: none;
+	color:#fff;
+	font-weight:900;
+	padding:4px 10px;
+	text-transform: uppercase;
+	position:absolute;
+	right:0;
+	top:-40px;
+	
+}
+
+div.akcje a:hover{
+	background:#02203c;
+}
+
+table.admin{
+	width:100%;
+} 
+
+table.admin th{
+	padding:5px;
+	background:#ddd;
+	font-weight:100;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+table.admin td{
+	border-bottom:1px solid #ccc;
+	padding:5px;
+}
+
+ul.bledy{
+	color:red;
+	font-weight: bold;  
+	clear:both;
+}

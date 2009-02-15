@@ -1,0 +1,178 @@
+html,body{
+	margin:0;
+	padding:0;
+}           
+
+body{
+	font-family: "Lucida Grande", "Trebuchet MS", Lucida, Trebuchet, sans-serif;
+	font-size:11px;
+	color:#333;
+	background:#eee;
+}
+
+a:link,a:visited{
+	color:#1174d0;
+}
+
+a:hover,a:active{
+	color:#02203c;
+}
+
+br.clear{
+	clear:both;
+}   
+
+div#strona{
+	width:960px;
+	margin:10px auto;
+	background:#fff;
+	padding:10px;
+	border-right:1px solid #aaa;
+	border-bottom:1px solid #aaa;
+}
+
+div#naglowek{
+	height:100px;
+	padding:10px;    
+	position:relative;
+	background:#d5e5e9;   	
+	text-align:center;
+}
+
+div#naglowek h1{
+	font-size:36px;
+	font-weight: bold;    
+	font-family: Georgia, Times, serif;
+}
+
+div#naglowek h1 a{
+	text-decoration: none;
+	color:#333;
+	
+}                 
+
+div#stopka{
+	background:#333;
+	padding:10px;
+	font-size:11px;
+	text-align: center;
+	color:#aaa;
+}       
+
+div#boczny{
+	width:250px;
+	float:right;  
+	padding:10px 0;
+}             
+
+div#glowny{
+	width:680px;
+	float:left;   
+	padding:10px 0;
+}   
+
+div#boczny div.box{
+	background:#eee;
+	margin:0 0 10px 0;
+}             
+
+div#boczny div.box h2{
+	font-size:15px;
+	letter-spacing: 1px;
+	font-weight: normal;
+	margin:0;
+	padding: 10px 10px;
+	background:#eee;
+	color:#333;    
+	border-bottom:1px solid #ddd;
+}             
+
+form.wyszukiwarka,form.wyszukiwarka fieldset{
+	margin:0;
+	padding:0;
+	border:none;
+}
+
+form.wyszukiwarka{
+	padding:20px 10px;
+}
+
+form.wyszukiwarka input[type=text]{
+	padding:1px;
+	font-size:12px;
+}
+
+form.komentarz fieldset{
+	border: 1px dotted #aaa;
+	padding:10px;
+}     
+
+form.komentarz fieldset div{
+	margin:10px 0;
+	clear:both;
+}         
+
+form.komentarz fieldset legend{
+	letter-spacing:3px; 
+	font-size:15px;
+}
+
+form.komentarz fieldset label{
+	font-weight:900;
+	padding:10px 0;
+	display:block;
+	float:left;
+	width:140px;
+}
+
+form.komentarz fieldset input[type=text]{
+	font-size:17px;
+	display:block;
+	width:450px;
+	margin:10px 0;
+}             
+
+form.komentarz fieldset textarea{
+	width:450px;
+	height:200px;
+}
+
+form.komentarz fieldset input[type=submit]{
+	font-size:17px;
+	clear:both;
+	margin:10px 0;
+}
+
+
+div#komunikat{
+	background:#F1E4D0;
+	color:#B5804E;
+	padding:20px;
+	font-size:17px;
+	font-weight: bold;
+	margin:10px 0;
+	text-align: center;
+}
+
+ul.bledy{
+	color:red;
+	font-weight: bold;  
+	clear:both;
+}
+
+ol.lista-komentarzy{
+	list-style:none;
+	display:block;
+	margin:0;
+	padding:0;
+}
+
+ol.lista-komentarzy li{
+	margin:10px 0;
+	padding:10px;
+	border:1px dashed #ccc;
+}
+
+ol.lista-komentarzy li span.info{
+	background:#eee;
+}
